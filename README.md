@@ -1,21 +1,21 @@
 # E-Project-Aug2025-CurrencyApp
-It is commissioned. a globally recognized financial institution. The app is designed to meet the financial needs of a broad user base, including individuals, travelers, and businesses.
+The app is designed to meet the financial needs of a broad user base, including individuals, travelers, and businesses.
 
 # CurrenSee - Currency Conversion Flutter App
 
 ![Project Banner](https://placehold.co/1200x300/4285f4/ffffff?text=CurrenSee&font=raleway)
 
-Welcome to the CurrenSee project repository. [cite_start]This application is a real-time currency conversion tool designed to meet the needs of travelers, individuals, and businesses[cite: 21]. [cite_start]This project is being developed for ABC Finance Ltd. [cite: 22] and aims to provide a robust, user-friendly, and scalable financial tool.
+Welcome to the CurrenSee project repository. This application is a real-time currency conversion tool designed to meet the needs of travelers, individuals, and businesses[cite: 21]. This project is being developed for ABC Finance Ltd. [cite: 22] and aims to provide a robust, user-friendly, and scalable financial tool.
 
 ## Project Objectives
 
-[cite_start]The primary goal is to create a live, synchronous eProject that simulates a real-world development environment[cite: 7, 8]. The application will serve as a comprehensive tool for currency management, allowing users to:
+The primary goal is to create a live, synchronous eProject that simulates a real-world development environment[cite: 7, 8]. The application will serve as a comprehensive tool for currency management, allowing users to:
 
-* [cite_start]Perform real-time currency conversions[cite: 26, 27].
-* [cite_start]Track historical exchange rate data[cite: 30].
-* [cite_start]Set personalized rate alerts[cite: 33].
-* [cite_start]Stay updated with market news and trends[cite: 35].
-* [cite_start]Manage their conversion history and preferences[cite: 31, 34].
+* Perform real-time currency conversions[cite: 26, 27].
+* Track historical exchange rate data[cite: 30].
+* Set personalized rate alerts[cite: 33].
+* Stay updated with market news and trends[cite: 35].
+* Manage their conversion history and preferences[cite: 31, 34].
 
 ## Tech Stack
 
@@ -32,16 +32,16 @@ This project is structured for a team of six. To ensure equal contribution, resp
 
 | Member | Role | Primary Responsibilities |
 | :--- | :--- | :--- |
-| **Team Member 1** | **Project Lead & Auth Specialist** | - [cite_start]Manages project board & tasks.<br>- Implements User Registration & Authentication (email/pass, social) [cite: 23, 24][cite_start].<br>- Manages app security and Firebase integration[cite: 47]. |
-| **Team Member 2** | **Core Logic & API Specialist** | - [cite_start]Implements real-time currency conversion logic[cite: 25, 27].<br>- Integrates external exchange rate API.<br>- Manages data models and repository patterns. |
-| **Team Member 3** | **UI/UX Lead & Frontend Dev** | - [cite_start]Develops the main UI for Currency Conversion & Currency List screens [cite: 25, 28][cite_start].<br>- Ensures UI is intuitive, responsive, and accessible[cite: 39, 41, 42].<br>- Manages the overall theme and design system. |
-| **Team Member 4** | **Features & Frontend Dev** | - [cite_start]Implements Exchange Rate Info (with charts) & Conversion History screens [cite: 29, 30, 31][cite_start].<br>- Implements User Preferences and Feedback sections[cite: 34, 38]. |
-| **Team Member 5** | **Advanced Features & Backend Dev** | - [cite_start]Implements Rate Alerts using Firebase Cloud Functions for push notifications [cite: 33, 37][cite_start].<br>- Implements Currency News & Market Trends feed[cite: 35].<br>- Manages backend logic for notifications. |
-| **Team Member 6** | **QA, Docs & Support Specialist**| - [cite_start]Implements User Support/Help Center [cite: 36][cite_start].<br>- Writes user & developer documentation [cite: 48, 49][cite_start].<br>- Conducts testing, manages error handling [cite: 45][cite_start], and creates the final demo video[cite: 50]. |
+| **Team Member 1** | **Project Lead & Auth Specialist** | - Manages project board & tasks.<br>- Implements User Registration & Authentication (email/pass, social) [cite: 23, 24].<br>- Manages app security and Firebase integration[cite: 47]. |
+| **Team Member 2** | **Core Logic & API Specialist** | - Implements real-time currency conversion logic[cite: 25, 27].<br>- Integrates external exchange rate API.<br>- Manages data models and repository patterns. |
+| **Team Member 3** | **UI/UX Lead & Frontend Dev** | - Develops the main UI for Currency Conversion & Currency List screens [cite: 25, 28].<br>- Ensures UI is intuitive, responsive, and accessible[cite: 39, 41, 42].<br>- Manages the overall theme and design system. |
+| **Team Member 4** | **Features & Frontend Dev** | - Implements Exchange Rate Info (with charts) & Conversion History screens [cite: 29, 30, 31].<br>- Implements User Preferences and Feedback sections[cite: 34, 38]. |
+| **Team Member 5** | **Advanced Features & Backend Dev** | - Implements Rate Alerts using Firebase Cloud Functions for push notifications [cite: 33, 37].<br>- Implements Currency News & Market Trends feed[cite: 35].<br>- Manages backend logic for notifications. |
+| **Team Member 6** | **QA, Docs & Support Specialist**| - Implements User Support/Help Center [cite: 36].<br>- Writes user & developer documentation [cite: 48, 49].<br>- Conducts testing, manages error handling [cite: 45], and creates the final demo video[cite: 50]. |
 
 ## Project Breakdown: A Phased Approach
 
-[cite_start]We will follow a laddered, step-by-step implementation plan[cite: 3, 9].
+We will follow a laddered, step-by-step implementation plan[cite: 3, 9].
 
 ### **Phase 1: Foundation & Core Functionality (Weeks 1-2)**
 1.  **Setup:** Initialize Flutter project, set up Firebase, and establish Git repository.
@@ -65,7 +65,7 @@ This project is structured for a team of six. To ensure equal contribution, resp
 ### **Phase 4: Testing, Documentation & Deployment (Weeks 7-8)**
 1.  **Testing:** Thoroughly test all features and fix bugs (**Team Member 6**).
 2.  **Documentation:** Finalize user guides and developer documentation (**Team Member 6**).
-3.  [cite_start]**Performance Tuning:** Optimize for responsiveness and loading time[cite: 39, 40].
+3.  **Performance Tuning:** Optimize for responsiveness and loading time[cite: 39, 40].
 4.  **Final Video:** Create a complete application demo video (**Team Member 6**).
 5.  **Release:** Prepare for deployment.
 
@@ -94,4 +94,4 @@ This project is structured for a team of six. To ensure equal contribution, resp
 * Create a Pull Request (PR) to merge into the `develop` branch.
 * The `main` branch is for stable releases only.
 
-[cite_start]Let's build a robust and valuable application together! [cite: 10, 12]
+Let's build a robust and valuable application together! [cite: 10, 12]
