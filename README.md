@@ -36,7 +36,7 @@ This project is structured for a team of six. To ensure equal contribution, resp
 | **Team Member 2** | **Core Logic & API Specialist** | - Implements real-time currency conversion logic.<br>- Integrates external exchange rate API.<br>- Manages data models and repository patterns. |
 | **Team Member 3** | **UI/UX Lead & Frontend Dev** | - Develops the main UI for Currency Conversion & Currency List screens.<br>- Ensures UI is intuitive, responsive, and accessible.<br>- Manages the overall theme and design system. |
 | **Team Member 4** | **Features & Frontend Dev** | - Implements Exchange Rate Info (with charts) & Conversion History screens.<br>- Implements User Preferences and Feedback sections. |
-| **Team Member 5** | **Advanced Features & Backend Dev** | - Implements Rate Alerts using Firebase Cloud Functions for push notifications, 37].<br>- Implements Currency News & Market Trends feed.<br>- Manages backend logic for notifications. |
+| **Team Member 5** | **Advanced Features & Backend Dev** | - Implements Rate Alerts using Firebase Cloud Functions for push notifications.<br>- Implements Currency News & Market Trends feed.<br>- Manages backend logic for notifications. |
 | **Team Member 6** | **QA, Docs & Support Specialist**| - Implements User Support/Help Center.<br>- Writes user & developer documentation.<br>- Conducts testing, manages error handling, and creates the final demo video. |
 
 ## Project Breakdown: A Phased Approach
