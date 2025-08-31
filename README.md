@@ -17,6 +17,51 @@ The primary goal is to create a live, synchronous eProject that simulates a real
 * Stay updated with market news and trends.
 * Manage their conversion history and preferences.
 
+
+
+## 📁 Project Structure
+
+```
+project/
+├── home.php                 ← Homepage
+├── login.php                ← User login page
+├── register.php             ← User registration page
+├── forgot-password.php      ← Forgot password page
+├── /includes                ← Common backend includes
+│   ├── header.php           ← Website header section
+│   ├── footer.php           ← Website footer section
+└── └── db.php               ← Database connection file
+├── /assets                  ← Frontend styling and assets
+│   └── style.css            ← Base stylesheet (In css folder)
+│   └── scripts.js           ← Javascript Scripts (In js folder)
+└── └── img                  ← Resources of images (In img folder)
+├── /user                    ← User dashboard (career tests, reports, resume builder, interview-kit, job-recommendations)
+    ├── /includes                ← Common backend includes
+    │   ├── header.php           ← Website header section
+    │   ├── footer.php           ← Website footer section
+    │   └── db.php               ← Database connection file
+    ├── /assets                  ← Frontend styling and assets
+    │   └── styles.css           ← Base stylesheet (In css folder)
+    │   └── scripts.js           ← Javascript Scripts (In js folder)
+    └── └── img                  ← Resources of images (In img folder)
+├── /admin                   ← Admin dashboard (management)
+    ├── /includes                ← Common backend includes
+    │   ├── header.php           ← Website header section
+    │   ├── footer.php           ← Website footer section
+    │   └── db.php               ← Database connection file
+    ├── /assets                  ← Frontend styling and assets
+    │   └── styles.css           ← Base stylesheet (In css folder)
+    │   └── scripts.js           ← Javascript Scripts (In js folder)
+    └── └── img                  ← Resources of images (In img folder)
+├── /api                     ← API endpoints (AI logic, suggestions)
+├── /blogs                   ← Career blogs & articles
+├── /reports                 ← Career reports and exports
+├── /sqldb                   ← Database SQL files (schema + sample data)
+```
+
+
+
+
 ## Tech Stack
 
 * **Framework:** Flutter
