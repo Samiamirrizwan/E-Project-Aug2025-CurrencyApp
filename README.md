@@ -22,41 +22,81 @@ The primary goal is to create a live, synchronous eProject that simulates a real
 ## 📁 Project Structure
 
 ```
-project/
-├── home.php                 ← Homepage
-├── login.php                ← User login page
-├── register.php             ← User registration page
-├── forgot-password.php      ← Forgot password page
-├── /includes                ← Common backend includes
-│   ├── header.php           ← Website header section
-│   ├── footer.php           ← Website footer section
-└── └── db.php               ← Database connection file
-├── /assets                  ← Frontend styling and assets
-│   └── style.css            ← Base stylesheet (In css folder)
-│   └── scripts.js           ← Javascript Scripts (In js folder)
-└── └── img                  ← Resources of images (In img folder)
-├── /user                    ← User dashboard (career tests, reports, resume builder, interview-kit, job-recommendations)
-    ├── /includes                ← Common backend includes
-    │   ├── header.php           ← Website header section
-    │   ├── footer.php           ← Website footer section
-    │   └── db.php               ← Database connection file
-    ├── /assets                  ← Frontend styling and assets
-    │   └── styles.css           ← Base stylesheet (In css folder)
-    │   └── scripts.js           ← Javascript Scripts (In js folder)
-    └── └── img                  ← Resources of images (In img folder)
-├── /admin                   ← Admin dashboard (management)
-    ├── /includes                ← Common backend includes
-    │   ├── header.php           ← Website header section
-    │   ├── footer.php           ← Website footer section
-    │   └── db.php               ← Database connection file
-    ├── /assets                  ← Frontend styling and assets
-    │   └── styles.css           ← Base stylesheet (In css folder)
-    │   └── scripts.js           ← Javascript Scripts (In js folder)
-    └── └── img                  ← Resources of images (In img folder)
-├── /api                     ← API endpoints (AI logic, suggestions)
-├── /blogs                   ← Career blogs & articles
-├── /reports                 ← Career reports and exports
-├── /sqldb                   ← Database SQL files (schema + sample data)
+currensee/
+├── .gitignore          ← Specifies intentionally untracked files to ignore.
+├── pubspec.yaml        ← Manages project metadata and dependencies (packages).
+├── README.md           ← Contains documentation for the project.
+└── lib/
+    ├── main.dart       ← The main entry point of the application; initializes Firebase.
+    ├── core/           ← Shared code, widgets, and utilities used across all features.
+    │   ├── app/
+    │   │   ├── app.dart              ← The root MaterialApp widget; configures themes.
+    │   │   └── app_router.dart       ← Defines all navigation routes using GoRouter.
+    │   ├── constants/
+    │   │   ├── app_colors.dart       ← Centralized color palette for the app.
+    │   │   └── app_strings.dart      ← Centralized UI text strings and constants.
+    │   ├── providers/
+    │   │   └── firebase_provider.dart ← Global providers for Firebase services (Auth, Firestore).
+    │   └── widgets/
+    │       ├── custom_button.dart    ← A reusable, app-themed button widget.
+    │       └── custom_textfield.dart ← A reusable, app-themed text input field.
+    └── features/       ← Contains individual, encapsulated features of the app.
+        ├── auth/       ← Handles user authentication (login, register, logout).
+        │   ├── data/
+        │   │   └── auth_repository.dart  ← Logic for communicating with Firebase Authentication.
+        │   ├── providers/
+        │   │   └── auth_provider.dart    ← Manages authentication state (e.g., current user, loading).
+        │   └── presentation/
+        │       ├── screens/
+        │       │   ├── login_screen.dart     ← UI for the user login screen.
+        │       │   └── register_screen.dart  ← UI for the user registration screen.
+        │       └── widgets/
+        │           └── social_login_button.dart ← Reusable button for Google/social sign-in.
+        ├── converter/  ← The core currency conversion feature.
+        │   ├── data/
+        │   │   ├── models/
+        │   │   │   └── conversion.dart       ← Data model for a currency conversion record.
+        │   │   └── currency_repository.dart  ← Fetches currency exchange rates from an API (or mock).
+        │   ├── providers/
+        │   │   └── converter_provider.dart   ← Manages the state for the currency converter UI.
+        │   └── presentation/
+        │       ├── screens/
+        │       │   ├── converter_screen.dart     ← The main UI for converting currencies.
+        │       │   └── currency_list_screen.dart ← A screen for selecting a currency from a list.
+        │       └── widgets/
+        │           └── currency_selector.dart    ← A widget to display and select a currency.
+        ├── history/    ← Feature for viewing past conversions.
+        │   ├── providers/
+        │   │   └── history_provider.dart   ← Provides the list of saved conversion history.
+        │   └── presentation/
+        │       └── screens/
+        │           └── history_screen.dart     ← UI that displays a list of past conversions.
+        ├── alerts/     ← Feature for setting rate-based alerts.
+        │   ├── data/
+        │   │   └── models/
+        │   │       └── rate_alert.dart         ← Data model for a rate alert.
+        │   ├── providers/
+        │   │   └── alerts_provider.dart      ← Manages the state and logic for rate alerts.
+        │   └── presentation/
+        │       └── screens/
+        │           └── set_alert_screen.dart   ← UI for creating and managing rate alerts.
+        ├── news/       ← Feature for displaying financial news.
+        │   ├── providers/
+        │   │   └── news_provider.dart      ← Provides a list of news articles from an API (or mock).
+        │   └── presentation/
+        │       └── screens/
+        │           └── news_feed_screen.dart   ← UI for displaying the news feed.
+        └── settings/   ← Feature for managing application settings.
+            ├── providers/
+            │   └── settings_provider.dart  ← Manages app-wide settings like theme mode.
+            └── presentation/
+                ├── screens/
+                │   ├── settings_screen.dart    ← The main UI for all settings options.
+                │   ├── support_screen.dart     ← A static screen with support information.
+                │   └── feedback_screen.dart    ← A static screen for feedback information.
+                └── widgets/
+                    └── theme_switcher.dart     ← A widget to toggle between light and dark themes.
+
 ```
 
 
