@@ -95,24 +95,3 @@ We will follow a laddered, step-by-step implementation plan.
 * The `main` branch is for stable releases only.
 
 Let's build a robust and valuable application together!
-
-Project Structure
-The project follows a feature-driven directory structure to keep the codebase organized and scalable.
-
-currensee/
-└── lib/
-    ├── core/               # Shared code: routing, themes, widgets
-    │   ├── app/
-    │   ├── constants/
-    │   ├── providers/
-    │   └── widgets/
-    └── features/           # Each feature gets its own folder
-        ├── auth/           # User Authentication
-        ├── converter/      # Currency Conversion & List
-        ├── history/        # Conversion History
-        ├── alerts/         # Rate Alerts
-        ├── news/           # Market News Feed
-        └── settings/       # User Preferences, Support, Feedback
-
-This structure ensures that all files related to a specific feature (e.g., auth) are co-located, making them easy to find and manage.
-
