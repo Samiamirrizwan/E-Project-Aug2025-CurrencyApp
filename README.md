@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# eproject_currencyapp_03sept2025
-
-A Currency Based app Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # E-Project-Aug2025-CurrencyApp
 The app is designed to meet the financial needs of a broad user base, including individuals, travelers, and businesses.
 
@@ -198,4 +180,3 @@ We will follow a laddered, step-by-step implementation plan.
 * The `main` branch is for stable releases only.
 
 Let's build a robust and valuable application together!
->>>>>>> 42f36cb752b98a0de7b46b882f33c0eedf256e8c
