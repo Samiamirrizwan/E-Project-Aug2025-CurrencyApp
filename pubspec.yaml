@@ -1,0 +1,41 @@
+name: currensee
+description: "A professional currency converter and financial tools application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# ... other packages
+  http: ^1.2.1 # <-- ADD THIS PACKAGE for API calls
+  url_launcher: ^6.2.6
+
+  # Core
+  cupertino_icons: ^1.0.2
+  go_router: ^16.2.1
+  flutter_riverpod: ^2.5.1
+  intl: ^0.20.2
+
+  # UI & Animations
+  google_fonts: ^6.2.1
+  simple_animations: ^5.0.2 # <-- ADDED: For beautiful background animations
+
+  # Firebase
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  animated_gradient: ^0.0.3
+  google_sign_in: ^6.2.1 # <-- ADD THIS
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
